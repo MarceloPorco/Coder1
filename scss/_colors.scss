@@ -1,0 +1,29 @@
+$violet: #563d7c;
+$compl1: #c9b677;
+$compl2: #82c94f;
+
+header {
+  background: $violet;
+}
+
+.section__jumbotron--bg {
+  background: url(../Images/jumbo.jpg);
+  background-size: cover;
+  height: 35rem;
+  background-position: 50%;
+}
+
+.card__body--bg1 {
+  background: linear-gradient(to bottom, #e66465, #9198e5);
+}
+.card__body--bg2 {
+  background: linear-gradient(to bottom, #f54fdf, #14fac0);
+}
+.card__body--bg3 {
+  background: linear-gradient(to bottom, #796bc7, #73ca89);
+}
+
+.nosotros--bg {
+  background-image: url(https://imagenes.t13.cl/images/original/2019/01/1546970493-pizza-30073951280.jpg);
+  background-size: cover;
+}

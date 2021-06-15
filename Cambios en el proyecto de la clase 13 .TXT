@@ -1,0 +1,17 @@
+Pagina Principal:
+ -Meta descriptions
+ -Meta keywords
+ -Images, alt ""
+ -h1 en el jumbotron
+
+Pagina Menu:
+ -Meta descriptions
+ -Meta keywords
+ -Images, alt ""
+ -h1 en el titulo
+
+Pagina Contactanos:
+ -Meta descriptions
+ -Meta keywords
+ -Images, alt ""
+ -h1 en el titulo
