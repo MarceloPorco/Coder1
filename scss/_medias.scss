@@ -1,0 +1,15 @@
+
+/*--responsive tablet--*/
+@media screen and (max-width: 1024px) {
+
+body{
+    font-size: 0.85rem;
+}    
+}
+
+/*--responsive smartphone--*/
+@media screen and (max-width: 820px) {
+    body{
+        font-size: 0.7rem;
+    }
+}

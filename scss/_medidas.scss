@@ -1,11 +1,12 @@
 @import "colors";
 
 body {
-  font-size: 0.75rem;
+  font-size: 16px;
  
 }
 h5{
-  margin: 6rem 0;
+  margin: 2.5rem 0;
+  font-family: 'Norican', sans-serif, ;
   }
 /*  HEADER  */
 .header__title {
@@ -22,16 +23,10 @@ h5{
 /*  HEADER  */
 
 /*   DESTACADOS   */
-.destacados__card--1 {
-  margin: 1.5rem 0;
-  border-radius: 7px;
-  padding: 1rem;
-  background: #c9b677;
-}
-
-.destacados__card--2 {
-  @extend .destacados__card--1;
-  background-color: #82c94f;
+.card-mod{
+  max-width: 40em;
+  margin: auto;
+  background: linear-gradient(to bottom, #ffffff, #c2c2c2);
 }
 /*   DESTACADOS   */
 
@@ -40,3 +35,12 @@ h5{
   transform: scale(1.2);
 }
 /*    MENU      */
+
+
+/*    FOOTER     */
+footer{
+  margin-top: 3.5rem;
+  background: #A69681;
+  width: 99%;
+}
+/*    FOOTER     */

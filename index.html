@@ -7,13 +7,11 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <title>Pizzeria xxxxx</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <title>La bruschetta</title>
+    <!-- bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- bootstrap -->
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap"rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="Css/font/flaticon.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
@@ -30,13 +28,14 @@
     <header class="container-fluid ">   
      <div class="row">
       <div class="col-lg-5 col-sm-12 justify-content-center justify-content-lg-start d-flex">
-          <h6 class="header__title text-white font-weight-bold">Pizzeria y restaurent xxxxx</h6>
+          <h6 class="header__title text-dark font-weight-bold">La Bruschetta</h6>
        </div>
 
        <div class="dropdown d-lg-none d-sm-none d-flex col-12 justify-content-center ">
-        <a class="container-fluid btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="container-fluid btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Menu
         </a>
+        
         <div class="container-fluid dropdown-menu " aria-labelledby="dropdownMenuLink">
         <a class="d-block text-center" href="Pages/Menu.html">Productos</a> 
         <a class="d-block text-center" href="#Inicio">Inicio</a>
@@ -47,11 +46,11 @@
       </div>
 
       <div class="d-sm-flex col-lg-7 col-sm-12 justify-content-lg-end justify-content-sm-around align-items-end d-none">
-        <a class="px-3 text-white header__nav--text  text-decoration-none" href="Pages/Menu.html">Productos</a> 
-        <a class="px-3 text-white header__nav--text text-decoration-none " href="#Inicio">Inicio</a>
-        <a class="px-3 text-white header__nav--text text-decoration-none" href="#Nosotros">Sobre nosotros</a>
-        <a class="px-3 text-white header__nav--text text-decoration-none" href="Pages/Contactanos.html">Contactanos</a>
-        <a class="px-3 text-white header__nav--text text-decoration-none" href="#Footer">Nuestras redes</a>
+        <a class="px-3 text-dark header__nav--text  text-decoration-none" href="Pages/Menu.html">Productos</a> 
+        <a class="px-3 text-dark header__nav--text text-decoration-none " href="#Inicio">Inicio</a>
+        <a class="px-3 text-dark header__nav--text text-decoration-none" href="#Nosotros">Sobre nosotros</a>
+        <a class="px-3 text-dark header__nav--text text-decoration-none" href="Pages/Contactanos.html">Contactanos</a>
+        <a class="px-3 text-dark header__nav--text text-decoration-none" href="#Footer">Nuestras redes</a>
       </div> 
       </div>
     </header>
@@ -61,8 +60,8 @@
     <!-- Jumbotron -->
   <section>
   <div class="jumbotron section__jumbotron--bg text-center text-white d-flex flex-column justify-content-end align-items-center ">
-    <h1 class="display-2 mb-3 ">Pizzeria y restaurant xxxxx</h1>
-    <p class="lead w-75 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam amet ipsum deserunt quae similique porro natus accusantium, ex necessitatibus pariatur reprehenderit molestias quaerat ab. Aliquam?</p>
+    <h1 class="display-2 mb-3 ">Pizzeria y Restaurant</h1>
+    <p class="lead w-75 ">Conoce nuestra increible variedad de comidas aqui.</p>
     <a class="btn btn-info btn-lg" href="Pages/Menu.html" role="button">Productos</a>
   </div>
 </section>
@@ -70,32 +69,29 @@
 
 <!-- Menu -->
   <section class="container-fluid bg-page"> 
-    <h5 class="text-center my-4 display-3">Nuestro menu</h5>  
+    <h5 class="text-center display-3">Nuestro menu</h5>  
 
        <div class="row d-flex justify-content-between my-4 ">
-        <div class="col-lg-4 col-md-6 col-sm-12 "> 
-          <a class="d-flex justify-content-center" href="Pages/Menu.html#Pizzas"><i class=" position-absolute text-white h3">Pizza</i><img class="img-fluid menu" src="images/pizza.jpg" alt="Pizzasmenu"></a>
+        <div class="col-lg-4 col-md-12 "> 
+          <a class="d-flex justify-content-center" href="Pages/Menu.html#Pizzas"><i class=" position-absolute text-dark h3 bg-white">Pizza</i><img class="img-fluid menu" src="images/Pizza/pizza.jpg" alt="Pizzasmenu"></a>
         </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 "> 
-          <a class= "d-flex justify-content-center" href="Pages/Menu.html#Fainas"><i class="position-absolute text-white h3">Faina</i><img class="img-fluid menu" src="images/faina.jpg" alt="FainaMenu"></a>
+          <div class="col-lg-4 col-md-12 "> 
+          <a class= "d-flex justify-content-center" href="Pages/Menu.html#Fainas"><i class="position-absolute  text-dark h3 bg-white">Faina</i><img class="img-fluid menu" src="images/Faina/faina.jpg" alt="FainaMenu"></a>        
         </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 "> 
-          <a class= "d-flex justify-content-center" href="Pages/Menu.html#Pastas"><i class="position-absolute text-dark h3">Pastas</i><img class="img-fluid menu" src="images/pastas.jpg" alt="PastasMenu"></a>
-        </div>
+        <div class="col-lg-4 col-md-12 "> 
+          <a class= "d-flex justify-content-center" href="Pages/Menu.html#Hamburguesas"><i class="position-absolute  text-dark h3 bg-white">Hamburguesas</i><img class="img-fluid menu" src="images/Hamburguesas/hamburguesas.jpg" alt="HamburguesaMenu"></a>
         </div>
        </div>
-        <div class="row d-flex justify-content-between my-4">
-          <div class="col-lg-4 col-md-6 col-sm-12 "> 
-          <a class= "d-flex justify-content-center" href="Pages/Menu.html#Hamburguesas"><i class="position-absolute text-white h3">Hamburguesas</i><img class="img-fluid menu" src="images/hamburguesas.jpg" alt="HamburguesaMenu"></a>
-        </div>
-          <div class="col-lg-4 col-md-6 col-sm-12  "> 
-          <a class= "d-flex justify-content-center" href="Pages/Menu.html#Postres"><i class="position-absolute text-dark h3">Postres</i><img class="img-fluid menu" src="images/postres.jpg" alt="PostresMenu"></a>
-        </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 "> 
-          <a class= "d-flex justify-content-center" href="Pages/Menu.html#Bebidas"><i class="position-absolute text-white h3">Bebidas</i><img class="img-fluid menu" src="images/bebidas.jpg" alt="BebidasMenu"></a> 
-        </div>
+       
+       <div class="row d-flex justify-content-between my-4">         
+      <div class="col-lg-4 col-md-12 "> 
+      <a class= "d-flex justify-content-center" href="Pages/Menu.html#Pastas"><i class="position-absolute  text-dark h3 bg-white">Pastas</i><img class="img-fluid menu" src="images/Pastas/pastas.jpg" alt="PastasMenu"></a>
+    </div>
+        <div class="col-lg-4 col-md-12 "> 
+        <a class= "d-flex justify-content-center" href="Pages/Menu.html#Pastasrellenas"><i class="position-absolute  text-dark h3 bg-white">Pastas rellenas</i><img class="img-fluid menu" src="images/Pastasrellenas/ravioles-con-estofado.jpg" alt="BebidasMenu"></a> 
+      </div>
+          <div class="col-lg-4 col-md-12 "> 
+          <a class= "d-flex justify-content-center" href="Pages/Menu.html#Postres"><i class="position-absolute  text-dark h3 bg-white">Postres</i><img class="img-fluid menu" src="images/Postres/postres.jpg" alt="PostresMenu"></a>      
     </div>
   </div>
   <hr>
@@ -104,90 +100,65 @@
 
 <!--   DESTACADOS -->
 <section class="container"><a name="Inicio"></a>
-  <h5 class="text-center my-4 display-4 z-depth-5">Destacados de la semana</h5> 
-
-<div data-aos="fade-right" class="row destacados__card--1 ">
-  <div class="col-lg-4 col-sm-12"> <span>Napolitana</span> <img src="Images/pizza.jpg" alt="Napolitana"></div>
-  <div class="col-lg-8 col-sm-12 pl-5 "><h4> <b> Ingredientes:</b></h4>
-    <ul>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-  </ul>
+<h5 class="text-center display-3 ">Destacados de la semana</h5>
+<div class="row row-cols-1  ">
+  <div class="col mb-4">
+    <div class="card card-mod">
+      <img src="Images/Pizza/panceta-huevo.jpg" class="card-img-top img-fluid" alt="pizza-panceta-y-huevo">
+      <div class="card-body card__body--bg">
+        <h5 class="card-title text-center h2">Pizza de panceta y huevo</h5>
+        <p class="card-text h4">Pizza chica: <b class="muted">$520</b> </p>
+        <p class="card-text h4">Pizza grande: <b class="muted">$550</b> </p>
+      </div>
+    </div>
   </div>
-</div>
-
-<div data-aos="fade-left" class="row destacados__card--2 ">
-  <div class="col-lg-4 col-sm-12"> <span>Jamon crudo</span> <img src="Images/pizza.jpg" alt="JamonCrudoYRucula"></div>
-  <div class="col-lg-8 col-sm-12 pl-5 "><h4>  <b> Ingredientes:</b></h4>
-    <ul>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-  </ul>
+  <div class="col mb-4">
+    <div class="card card-mod">
+      <img src="Images/Pizza/de-cancha.jpg" class="card-img-top img-fluid" alt="pizza-de-cancha">
+      <div class="card-body card__body--bg">
+        <h5 class="card-title text-center h2">Pizza de cancha</h5>
+        <p class="card-text h4">Pizza chica: <b class="muted">$450</b> </p>
+        <p class="card-text h4">Pizza grande: <b class="muted">$480</b> </p>
+      </div>
+    </div>
   </div>
-</div>
-
-<div data-aos="fade-right" class="row destacados__card--1 ">
-  <div class="col-lg-4 col-sm-12"> <span>Panceta y huevo frito</span> <img src="Images/pizza.jpg" alt="Panceta"></div>
-  <div class="col-lg-8 col-sm-12 pl-5 "><h4>  <b> Ingredientes:</b></h4>
-    <ul>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-  </ul>
+  <div class="col mb-4">
+    <div class="card card-mod">
+      <img src="Images/Pastas/tallarines-con-salteado-verduras.jpg" class="card-img-top img-fluid" alt="tallarines-con-salteado-verduras">
+      <div class="card-body card__body--bg">
+        <h5 class="card-title text-center h2">Tallarines con salteado verduras</h5>
+        <p class="card-text h4">Precio: <b class="muted">$440</b> </p> 
+      </div>
+      </div>
+    </div>
   </div>
-</div>
-
-<div data-aos="fade-left" class="row destacados__card--2 ">
-  <div class="col-lg-4 col-sm-12"> <span>jamon y morron</span> <img src="Images/pizza.jpg" alt="JamonYMorron"></div>
-  <div class="col-lg-8 col-sm-12 pl-5 "><h4>  <b> Ingredientes:</b></h4>
-    <ul>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-  </ul>
+  <div class="col mb-4">
+    <div class="card card-mod">
+      <img src="Images/Pastasrellenas/canelones-de-verdura.jpg" class="card-img-top img-fluid" alt="canelones-de-verdura">    
+      <div class="card-body card__body--bg">
+        <h5 class="card-title text-center h2">Canelones de verdura</h5>
+        <p class="card-text h4">Precio: <b class="muted">$410</b> (2 und.)</p>
+      </div>
+    </div>
   </div>
-</div>
 
-<div  data-aos="fade-right" class="row destacados__card--1">
-  <div class="col-lg-4 col-sm-12"> <span>De cancha</span> <img src="Images/pizza.jpg" alt="DeCancha"></div>
-  <div class="col-lg-8 col-sm-12 pl-5"><h4> <b> Ingredientes:</b> </h4>
-    <ul>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-    <li>Ingredientes</li>
-  </ul>
-  </div>
-</div>
+
 </section>
 <!--   DESTACADOS -->
 
 <!--   Clientes -->
 <section class="container"> 
-  <h5 class="text-center my-4 display-3">Clientes satisfechos</h5>  
+  <h5 class="text-center display-3">Clientes satisfechos</h5>  
   <div class="card-deck row">
+  
+   
+    
     <div class="container-fluid col-12 col-md-6 col-lg-4 ">
     <div class="card shadow">
       <img src="Images/cliente1.jpg" class="card-img-top" alt="ClienteSatisfecho1">
-      <div class="card-body card__body--bg1">
+      <div class="card-body card__body--bg">
         <h5 class="card-title">Michael Scott</h5>
-        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi magnam sed dignissimos!</p>
+        <p class="card-text">Muy buena atencion y muy rico todo muy recomendable.</p>
         <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
       </div>
     </div>
@@ -196,9 +167,9 @@
     <div class="container-fluid col-12 col-md-6 col-lg-4 ">
     <div class="card shadow ">
       <img src="Images/cliente2.jpg" class="card-img-top" alt="ClienteSatisfecho2">
-      <div class="card-body card__body--bg2">
+      <div class="card-body card__body--bg">
         <h5 class="card-title">Vladimir Putin</h5>
-        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis.</p>
+        <p class="card-text">Comimos con mi familia una pizza napolitana, inolvidable!.</p>
         <p class="card-text"><small class="text-muted">Last updated 6 days ago</small></p>
       </div>
     </div>
@@ -207,9 +178,9 @@
     <div class="container-fluid col-12 col-md-6 col-lg-4 ">
     <div class="card shadow ">
       <img src="Images/cliente3.jpg" class="card-img-top" alt="ClienteSatisfecho3">
-      <div class="card-body card__body--bg3">
+      <div class="card-body card__body--bg">
         <h5 class="card-title">Mariaenema</h5>
-        <p class="card-text">Lorem ipsum,dolor sit amet consectetur adipisicing elit. illo ea aspernatur fuga mollitia nihil!</p>
+        <p class="card-text">Muy variado el catalogo de comidas y de bebidas. Increible experiencia.</p>
         <p class="card-text"><small class="text-muted">Last updated 1 month ago</small></p>
       </div>
     </div>
@@ -220,30 +191,26 @@
 <!--   Clientes -->
 
 <!-- Nosotros -->
-<section ><a name="Nosotros"></a>
-  <h5 class="text-center my-4 display-3">Sobre nosotros</h5>
-  <div class="container-fluid nosotros--bg">
+
+<div class="jumbotron jumbotron-fluid bg-white container-fluid " id="Nosotros">
   <div class="container ">
-  <p class="text-center h3 text-white" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione perferendis dolor ipsum nesciunt sint, corrupti eum? Neque repellendus labore, quibusdam voluptas laborum soluta doloremque natus ea necessitatibus vel. Exercitationem, facere Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ducimus necessitatibus aut inventore hic natus quas officia amet ex, aliquam quod possimus consequatur alias voluptates unde dicta quidem ad dolorem cumque, in temporibus! Magnam fuga doloremque similique fugit praesentium. Aliquid veniam id architecto provident dolorum error asperiores laudantium voluptate. Obcaecati, fuga a rem id delectus nam possimus consequuntur maxime. Laborum nemo neque vero, quidem alias doloremque libero. Ipsum unde cupiditate sequi, facere itaque maiores tempora voluptatum accusantium rem. Ea eum maxime neque harum debitis vel facilis, est perferendis adipisci commodi fuga nemo maiores corrupti, minima veniam suscipit ut! Ad quod dolore architecto suscipit, facilis consequatur alias cumque debitis nulla. A explicabo nisi incidunt voluptatum sed voluptate aut aspernatur nesciunt harum porro ut nulla esse expedita, delectus libero adipisci fugit totam deleniti ratione odit nihil similique. Vitae aliquid incidunt maiores aspernatur nemo totam excepturi consectetur, ullam blanditiis expedita odio esse sint minima fuga ad nisi voluptates facilis facere id perspiciatis laboriosam error, pariatur eligendi. Excepturi vitae, atque assumenda vel iusto temporibus beatae quibusdam, dolore voluptate, unde aperiam! Modi illum consectetur voluptatem et veniam ratione saepe veritatis, enim magnam voluptas ab numquam expedita sit itaque. Reprehenderit molestiae aliquid veniam eos est qui laborum deserunt, corporis, necessitatibus sit unde, aspernatur dolorum in consectetur a voluptatibus excepturi quasi dolorem ea enim alias obcaecati pariatur. Quibusdam error minima rem nemo iure odio, cumque ut corrupti voluptatum quasi ratione deserunt? Eveniet cupiditate laborum molestias quas tempore nesciunt officiis ratione, sit voluptatibus ducimus quidem eum repellendus inventore sapiente rerum maxime quos? Aspernatur dolorem debitis et harum dolor ratione eveniet repudiandae ipsum laudantium? Facere consectetur dolorum laborum, ipsa expedita provident! Earum accusantium, enim possimus vel tempora inventore doloremque veritatis excepturi. Qui alias expedita dolores quas eius. Repudiandae odio asperiores, suscipit ratione rem distinctio sunt magni optio voluptate. Pariatur? </p>
+    <h5 class="text-center display-3">Sobre Nosotros</h5>
+    <p class="h2 text-justify">Picsa, pixa o pitsa, según quien lo pronuncie. Amamos que la coman de parados en el mostrador, o en la mesa con amigos. Con la mano o con cubiertos. Amamos que entren por el olorcito o porque vinieron después del cine. Que coman la fainá (o fáina, como prefieran) fría o caliente; arriba o abajo de la muzza. Que se la lleven para desayunar al día siguiente.<b> Amamos que la pizza sea parte de nuestras vidas</b>. Tanto la amamos, que desde 1999 estamos abiertos desde la mañana hasta medianoche, porque no hay hora para comer una buena pizza. Una pizza hecha con amor, nuestra pizza. </p>
+  </div>
 </div>
-</div>
-</section>
+
+
 <!-- Nosotros -->
 
 <!-- FOOTER -->
 <footer class="border"> <a name="Footer"></a>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-lg-3">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6411.075820730763!2d-56.68685152196445!3d-36.54114101980223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c13045b41282d%3A0xf29ed3ad0497f76d!2sR%C3%A9plica%20Carabela%20Santa%20Mar%C3%ADa!5e0!3m2!1ses-419!2sar!4v1620071173441!5m2!1ses-419!2sar"
-              width="350"
-              height="250"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-            ></iframe>
+      <div class="col-12 col-md-3 m-auto">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.652290755712!2d-56.69165728420546!3d-36.538382180003374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c13075c2f355d%3A0xcc9aa47ec3dd26c2!2sLa%20Bruschetta!5e0!3m2!1ses-419!2sar!4v1626633771810!5m2!1ses-419!2sar" width="350" height="200" style="border:0.5;" allowfullscreen="" loading="lazy"></iframe>
+
       </div>
-      <div class="col-12 col-lg-9 d-flex flex-wrap">  
+      <div class="col-12 d-flex flex-wrap">  
         <div class="container d-flex flex-row justify-content-around ">
           <h6 class="font-weight-bold" >Nuestras redes</h6>
         <a class="h5" href="https://www.youtube.com/">YouTube</a>
@@ -271,15 +238,7 @@
   AOS.init();
 </script>
 <!-- bootstrap -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivret/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-      crossorigin="anonymous"
-    ></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
   </body>
 </html>
