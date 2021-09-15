@@ -26,127 +26,58 @@
     <header class="container-fluid">
       <div class="row">
         <div
-          class="
-            col-lg-5 col-sm-12
-            justify-content-center justify-content-lg-start
-            d-flex
-          "
-        >
-          <h1 class="h6 header__title text-dark font-weight-bold">
-            La Bruschetta
-          </h1>
+          class="col-lg-5 col-sm-12 justify-content-center justify-content-lg-start d-flex">
+          <h1 class="h6 header__title text-dark font-weight-bold">La Bruschetta</h1>
         </div>
 
-        <div
-          class="
-            dropdown
-            d-lg-none d-sm-none d-flex
-            col-12
-            justify-content-center
-          "
-        >
-          <a
-            class="container-fluid btn btn-secondary dropdown-toggle"
-            href="#"
-            role="button"
-            id="dropdownMenuLink"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Menu
-          </a>
-          <div
-            class="container-fluid dropdown-menu"
-            aria-labelledby="dropdownMenuLink"
-          >
+        <div class="dropdown d-lg-none d-sm-none d-flex col-12 justify-content-center ">
+           <a class="container-fluid btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu </a>
+          <div class="container-fluid dropdown-menu" aria-labelledby="dropdownMenuLink">
             <a class="d-block text-center text-dark" href="Menu.html">Productos</a>
             <a class="d-block text-center text-dark" href="../index.html">Inicio</a>
-            <a class="d-block text-center text-dark" href="../index.html#Nosotros"
-              >Sobre nosotros</a
-            >
-            <a class="d-block text-center text-dark" href="../index.html#Footer"
-              >Nuestras redes</a
-            >
+            <a class="d-block text-center text-dark" href="../index.html#Nosotros">Sobre nosotros</>
+            <a class="d-block text-center text-dark" href="../index.html#Footer">Nuestras redes</a >
           </div>
         </div>
 
-        <div
-          class="
-            d-sm-flex
-            col-lg-7 col-sm-12
-            justify-content-lg-end justify-content-sm-around
-            align-items-end
-            d-none
-          "
-        >
-          <a
-            class="px-3 text-white header__nav--text text-decoration-none text-dark"
-            href="Menu.html"
-            >Productos</a
-          >
-          <a
-            class="px-3 text-white header__nav--text text-decoration-none text-dark"
-            href="../index.html#Inicio"
-            >Inicio</a
-          >
-          <a
-            class="px-3 text-white header__nav--text text-decoration-none text-dark"
-            href="../index.html#Nosotros"
-            >Sobre nosotros</a
-          >
-
-          <a
-            class="px-3 text-white header__nav--text text-decoration-none text-dark"
-            href="../index.html#Footer"
-            >Nuestras redes</a
-          >
+        <div class="d-sm-flex col-lg-7 col-sm-12 justify-content-lg-end justify-content-sm-around align-items-end d-none ">
+          <a class="px-3 text-white header__nav--text text-decoration-none text-dark" href="Menu.html" >Productos</a >
+          <a class="px-3 text-white header__nav--text text-decoration-none text-dark" href="../index.html#Inicio">Inicio</a>
+          <a class="px-3 text-white header__nav--text text-decoration-none text-dark"href="../index.html#Nosotros">Sobre nosotros</>
+          <a class="px-3 text-white header__nav--text text-decoration-none text-dark" href="../index.html#Footer">Nuestras redes</a>
         </div>
       </div>
     </header>
     <!-- HEADER -->
 
     <!-- FORMS -->
-    <div
-      class="
-        container-fluid
-        d-flex
-        justify-content-center
-        align-items-center
-        h-75
-      "
-    >
-      <div
-        class="container d-flex flex-column contacto__forms align-items-center"
-      >
-        <input type="text" placeholder="Nombre." />
+    <div class=" container-fluid d-flex justify-content-center align-items-center h-75 ">
+      <div class="container d-flex flex-column contacto__forms align-items-center">
+        <input type="text" placeholder="Nombre." id="nombreUser"/>
         <input type="text" placeholder="Apellido." />
-        <input type="email" placeholder="Email." />
-        <input type="number" placeholder="Numero de contacto." />
-        <textarea
-          name="comentario"
-          id="Coment"
-          placeholder="Escriba su comentario..."
-        ></textarea>
-        <input type="submit" value="Enviar Comentario." id="enviar" />
+        <input type="email" placeholder="Email." id="mailUser"/>
+        <textarea name="comentario" id="Coment" placeholder="Escriba su comentario..."></textarea>
+        <input type="submit" value="Enviar Comentario." id="enviar"/>
+      <!-- <button id="enviar">Enviar comentario </button> -->
       </div>
     </div>
 
     <footer>
       <div class="container-fluid">
-        <h6 class="text-center font-weight-bold h3 my-4">
-          Pizzeria y restaurant xxxxx tiene los derechos reservados desde 2008
-        </h6>
+        <h6 class="text-center font-weight-bold h3 my-4"> Pizzeria y restaurant xxxxx tiene los derechos reservados desde 2008</h6>
       </div>
     </footer>
+    
+     <!-- JS -->
+     <script src="../Js/main.js"></script>
+     <!-- JS -->
+
     <!-- bootstrap -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
