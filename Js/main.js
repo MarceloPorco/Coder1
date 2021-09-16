@@ -29,18 +29,14 @@ for (pizza of pizzas) {
   idhtml.appendChild(preciohtml);
 }
 
-// let btnEnviar = document.getElementById ("enviar");
-// // let nombreUser = document.getElementById ("nombreUser").value;  
-// // let  mailUser = document.getElementById ("mailUser").value;
-// btnEnviar.addEventListener (`click`,() => {
-//   var nombreUser = document.getElementById ("nombreUser").value;  
-//   var mailUser = document.getElementById ("mailUser").value;
-//  alert (`Buen dia ${nombreUser}, el comentario que usted escribio se contestara en las proximas 48hs al siguiente mail: "${mailUser}"`)
-// })
+// Aca es donde no pude enlazar el boton enviar con el Id de la pagina de contactate
+// en cambio el codigo de arriba de esto si se linkeo con la pagina de Menu
 let btnEnviar = document.getElementById("enviar");
 btnEnviar.addEventListener(`click`,()=>{ 
   var nombreUser = document.getElementById("nombreUser").value;
   var mailUser = document.getElementById("mailUser").value ;
+  localStorage.setItem(`username`,`${nombreUser}` );
+  localStorage.setItem(`email`,`${mailUser}`)
   alert (`Buen dia ${nombreUser}, el comentario que usted escribio se contestara en las proximas 48hs al siguiente mail: "${mailUser}"`)
 })
 
