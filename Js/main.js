@@ -66,7 +66,7 @@ for (card of Cards){
             <h5 class="card-title text-center h2 ">${card.nombre}</h5>
             <p class="card-text h4"> Pizza Grande: <b>$${preciogde}</b> </p> <br>
             <p class="card-text h4"> Pizza Chica: <b> $${preciogde * pizzachica}</b> </p>
-            <button class= "btn btn-success" id="id:${card.id}">Comprar</button>
+            <button class= "btn btn-success" id="buy_item${card.id}">Comprar</button>
           </div>
         </div>
       </div> `
@@ -101,6 +101,15 @@ for (card of Cards){
   }
     }
 
+// jquery
+let carrito = 0
+$(() => {
+
+$(`buy_item${card.id}`).click(()=>{
+carrito = carrito + preciogde
+})
+
+})
 
 
 
@@ -119,34 +128,6 @@ for (card of Cards){
 
 
 
-
-
-
-
-// for (pizza of pizzas) {
-//   var preciogde = (pizza.valor + pizzagrande) * 200;
-//   var precioCca = pizzaCca(preciogde, pizzachica);
-//   pizzaCca(preciogde, pizzachica);
-//   function pizzaCca(muzza, chica) {
-//     total = muzza * chica;
-//     return total;
-//   }
-
-//   let idhtml = document.getElementById("pizzas");
-//   let cardpizzas = document.createElement("div");
-//   cardpizzas.innerHTML = ` 
-//   <div class="col" id="${pizza.id}" >
-//   <div class="card">
-//     <img src="../Images/img-${pizza.id}.jpg" class="card-img-top" alt="${pizza.nombre}">
-//     <div class="card-body card__body--bg" >
-//       <h5 class="card-title text-center h2 ">${pizza.nombre}</h5>
-//       <p class="card-text h4"> Pizza Grande: <b>$${preciogde}</b> </p> <br>
-//       <p class="card-text h4"> Pizza Chica: <b> $${precioCca}</b> </p>
-//     </div>
-//   </div>
-// </div> `
-//   idhtml.appendChild(cardpizzas);
-// }
 
 
 
