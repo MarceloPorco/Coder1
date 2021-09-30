@@ -41,8 +41,8 @@ const hamburguesas =[
   {  nombre: "Hamburguesa con lechuga y tomate", valor: 410, id:98, tipo:"hamburguesas" },
   {  nombre: "Hamburguesa con panceta", valor: 460, id:99, tipo:"hamburguesas" },
   {  nombre: "Hamburguesa doble de panceta", valor: 550, id:100, tipo:"hamburguesas" },
-  {  nombre: "Hamburguesa doble especial", valor: 530, id:101, tipo:"hamburguesas" }
-];
+  {  nombre: "Hamburguesa doble especial", valor: 530, id:101, tipo:"hamburguesas" },
+ ];
 const postres =[
   {  nombre: "Cheesecake", valor: 320, id:130, tipo:"postres" },
   {  nombre: "Copa helada", valor: 250, id:131, tipo:"postres" },
@@ -101,15 +101,37 @@ for (card of Cards){
   }
     }
 
-// jquery
+
+    $(() => { 
+      $("#btn-cart").click(()=>{
+        $("#cart-style").toggle(500)   })
+
+        $("#btn-up").click(()=>{
+          $("#cart-style").css({height:"40%"});    })
+
+      $("#btn-down").click(()=>{  
+        $("#cart-style").css({height:"20%"});    })
+
+     }) 
+             
+
+
+
+    // jquery
 let carrito = 0
 $(() => {
 
 $(`buy_item${card.id}`).click(()=>{
 carrito = carrito + preciogde
+
 })
 
 })
+
+
+
+
+
 
 
 

@@ -8,15 +8,13 @@
     <title>Nuestro menu</title>  
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
-     <!-- bootstrap -->
-     <link
-     rel="stylesheet"
-     href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-     crossorigin="anonymous"
-   />
-   <!-- AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- bootstrap -->
+    <link
+     rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"crossorigin="anonymous"/>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Iconos  -->
+    <link rel="stylesheet" href="../css/font/flaticon.css">
 
     <link rel="stylesheet" href="../css/estilo.css">
  </head>
@@ -51,8 +49,7 @@
      </header>
               <!-- HEADER -->
               
-      <section class="container">  
-  
+<section class="container">    
     <!-- PIZZAS -->
     <h5 data-aos="flip-up" class="text-center my-4 display-3">Pizzas</h5>   
     <div class="row row-cols-1 row-cols-md-2 g-4" id="pizzas" >
@@ -77,8 +74,18 @@
     <h5 id="Postres" data-aos="flip-up" class="text-center my-4 display-3">Postres</h5>  
     <div class="row row-cols-1 row-cols-md-2 g-4" id="postres">
     </div>
+</section>
 
-   
+<section class="text-center">
+  <button id="btn-cart"><i class="flaticon-carrito-de-compras"></i></button>  
+  <div class="container-fluid cart-style" id="cart-style">
+    <button ><i class="flaticon-upload" id="btn-up"></i></button>
+    <button > <i class="flaticon-arrow-down-sign-to-navigate"id="btn-down"></i></button>
+    <h2 class="text-center">Carrito</h2>
+  <div id="cart">
+  </div>
+   </div>
+</section>
 
     <!-- FOOTER -->
       <footer class="container-fluid" > <a id="Footer"></a>       
