@@ -1,0 +1,114 @@
+.navbar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+/*
+headeer top
+*/
+.topbar{
+background-color: #1c1e20;
+padding: 0;
+}
+
+.topbar .container .row {
+margin:-7px;
+padding:0;
+}
+
+
+.topbar h5:last-child{
+text-align:right;
+} 
+
+header .navbar {
+  margin-bottom: 0;
+}
+
+
+ul.social-network {
+border:none;
+margin:0;
+padding:0;
+}
+
+ul.social-network li {
+border:none;  
+margin:0;
+}
+
+ul.social-network li i {
+margin:0;
+}
+
+ul.social-network li {
+  display:inline;
+  margin: 0 5px;
+  border: 0px solid #2D2D2D;
+  padding: 5px 0 0;
+  width: 32px;
+  display: inline-block;
+  text-align: center;
+  height: 32px;
+  vertical-align: baseline;
+  color: #000;
+}
+
+ul.social-network {
+list-style: none;
+margin: 2px 0 6px -25px;
+float: right;
+}
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  will-change: opacity, transform;
+  transition: .3s ease-out;
+  color: rgb(234, 190, 63);
+}
+
+
+.bg-dark {
+  background-color: rgb(15, 15, 15)!important;
+}
+
+.mx-background-top-linear {
+  background: -webkit-linear-gradient(45deg, #000000 62%, #ffffff 32%);
+  background: -webkit-linear-gradient(left, #000000 62%, #ffffff 32%);
+  background: linear-gradient(to left, rgb(0, 0, 0) 32%, #ffffff  62%); 
+}
+.navbar-brand1{
+  font-family: "Norican", sans-serif;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.3rem;
+  padding: 0;
+  margin: 10px 0;
+  color: #202020;
+}
+
+.nav-link {
+  color: rgb(161, 160, 160);
+
+  &:hover,
+  &:focus {
+    color: rgb(161, 160, 160);
+  }
+}

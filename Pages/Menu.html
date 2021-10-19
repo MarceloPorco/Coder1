@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
     <!-- bootstrap -->
-    <link
-     rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Iconos  -->
@@ -20,108 +19,133 @@
  </head>
 
   <body>
-                  <!-- HEADER -->
-    <header class="container-fluid ">   
-      <div class="row">
-       <div class="col-lg-5 col-sm-12 justify-content-center justify-content-lg-start d-flex">
-           <h1 class="header__title text-dark font-weight-bold h6">La Bruschetta</h1>
-        </div>
- 
-        <div class="dropdown d-lg-none d-sm-none d-flex col-12 justify-content-center ">
-         <a class="container-fluid btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Menu
-         </a>
-         <div class="container-fluid dropdown-menu " aria-labelledby="dropdownMenuLink">
-         <a class="d-block text-center text-dark" href="../index.html#Inicio">Inicio</a>
-         <a class="d-block text-center text-dark" href="../index.html#Nosotros">Sobre nosotros</a>
-         <a class="d-block text-center text-dark" href="Contactanos.html">Contactanos</a>
-         <a class="d-block text-center text-dark" href="../index.html#Footer">Nuestras redes</a>
-         </div>
+           <!-- HEADER -->
+  
+ <header class="topbar">
+    <div class="container-fluid">
+       <div class="row">
+         <!-- social icon-->
+         <div class="col-sm-12">
+           <ul class="social-network">
+             <li><a class="waves-effect waves-dark" href="https://www.instagram.com/labruschettaok/?hl=es"><i class="fab fa-instagram"></i></a></li>
+             <li><a class="waves-effect waves-dark" href="https://www.facebook.com/labruschettaok/"><i class="fab fa-facebook-square"></i></a></li>
+             <li><a class="waves-effect waves-dark" href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></li>
+             <li><a class="waves-effect waves-dark" href="https://goo.gl/maps/TtBAmMLo8as7CFES7"><i class="fas fa-map-marker-alt"></i></i></a></li>
+          
+           </ul>
+         </div>   
        </div>
- 
-       <div class="d-sm-flex col-lg-7 col-sm-12 justify-content-lg-end justify-content-sm-around align-items-end d-none">
-         <a class="px-3 text-white header__nav--text text-decoration-none  text-dark" href="../index.html#Inicio">Inicio</a>
-         <a class="px-3 text-white header__nav--text text-decoration-none text-dark" href="../index.html#Nosotros">Sobre nosotros</a>
-         <a class="px-3 text-white header__nav--text text-decoration-none text-dark" href="Contactanos.html">Contactanos</a>
-         <a class="px-3 text-white header__nav--text text-decoration-none text-dark" href="../index.html#Footer">Nuestras redes</a>
-       </div> 
+    </div>
+  </header>
+  <nav class="mx-background-top-linear navbar navbar-expand-lg">
+     <div class="container nav-responsive">
+       <h5 class="navbar-brand1 "  target="_blank" href="../index.html#Inicio"> La bruschetta</h5>
+       <div id="navbarResponsive">
+         <ul class="navbar-nav">
+           <li class="nav-item."><a class="nav-link" href="../index.html#Inicio">Inicio</a></li>
+           <li class="nav-item"><a class="nav-link" href="../index.html#Nosotros">Sobre nosotros</a></li>
+           <li class="nav-item"><a class="nav-link" href="Contactanos.html">Contactanos</a></li>
+           <li class="nav-item"><a class="nav-link" href="../index.html#Footer">Nuestras redes</a></li> 
+         </ul>
+
        </div>
-     </header>
+     </div>
+  </nav>
               <!-- HEADER -->
-              
-<section class="container">    
-    <!-- PIZZAS -->
+  
+<main>         
+  <div class="container" id="menu" >    
+
     <h5 data-aos="flip-up" class="text-center my-4 display-3">Pizzas</h5>   
-    <div class="row row-cols-1 row-cols-md-2 g-4" id="pizzas" >
-    </div>
-    <!-- FAINAS -->
-    <h5 data-aos="flip-up" class="text-center my-4 display-3">Fainas</h5>    
-    <div class="row row-cols-1 row-cols-md-2 g-4" id="fainas">
-    </div>
-    <!-- PASTAS -->   
-    <h5 data-aos="flip-up" class="text-center my-4 display-3">Pastas</h5>  
-    <div class="row row-cols-1 row-cols-md-2 g-4" id="pastas">
-    </div>
-    <!-- PASTAS RELLENAS -->
+        <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3"  id="pizzas" ><!-- PIZZAS --></div>
+    <h5 data-aos="flip-up" class="text-center my-4 display-3">Fainas</h5>      
+      <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3" id="fainas" ><!-- FAINAS --></div>  
+    <h5 data-aos="flip-up" class="text-center my-4 display-3">Pastas</h5>     
+      <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3"  id="pastas" > <!-- PASTAS --> </div>
     <h5 data-aos="flip-up" class="text-center my-4 display-3">Pastas rellenas</h5>   
-    <div class="row row-cols-1 row-cols-md-2 g-4" id="pastasrell">
-    </div>
-    <!-- HAMBURGUESAS -->
-    <h5 data-aos="flip-up" class="text-center my-4 display-3">Hamburguesas</h5>  
-    <div class="row row-cols-1 row-cols-md-2 g-4"id="hamburguesas">
-    </div>
-    <!-- POSTRES -->
+      <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3"  id="pastasrell" ><!-- PASTAS RELLENAS --></div>
+    <h5 data-aos="flip-up" class="text-center my-4 display-3">Hamburguesas</h5>    
+      <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3"  id="hamburguesas" >  <!-- HAMBURGUESAS --></div>
     <h5 id="Postres" data-aos="flip-up" class="text-center my-4 display-3">Postres</h5>  
-    <div class="row row-cols-1 row-cols-md-2 g-4" id="postres">
-    </div>
-</section>
-
-<section class="text-center">
-  <button id="btn-cart"><i class="flaticon-carrito-de-compras"></i></button>  
-  <div class="container-fluid cart-style" id="cart-style">
-    <button ><i class="flaticon-upload" id="btn-up"></i></button>
-    <button > <i class="flaticon-arrow-down-sign-to-navigate"id="btn-down"></i></button>
-    <h2 class="text-center">Carrito</h2>
-  <div id="cart">
+      <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3"  id="postres" >  <!-- POSTRES --> </div>
   </div>
-   </div>
-</section>
 
-    <!-- FOOTER -->
-      <footer class="container-fluid" > <a id="Footer"></a>       
-          <div class="row">
-            <div class="col-12 col-md-3 m-auto">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.652290755712!2d-56.69165728420546!3d-36.538382180003374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c13075c2f355d%3A0xcc9aa47ec3dd26c2!2sLa%20Bruschetta!5e0!3m2!1ses-419!2sar!4v1626633771810!5m2!1ses-419!2sar" width="350" height="200" style="border:0.5;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="col-12 d-flex flex-wrap">  
-              <div class="container d-flex flex-row justify-content-around ">
-                <h6 class="font-weight-bold" >Nuestras redes</h6>
-              <a class="h5" href="https://www.youtube.com/">YouTube</a>
-              <a class="h5" href="https://www.facebook.com/">Facebook</a>
-              <a class="h5" href="https://www.instagram.com/">Instagram</a>
-              <a class="h5" href="https://www.twitter.com/">Twitter</a>
-            </div>
-            
-            <div class="container d-flex flex-row justify-content-around">
-              <h6 class="font-weight-bold" >Formas de pago</h6>
-              <a class="h5" href="https://www.mastercard.com/">Mastercard</a>
-              <a class="h5" href="https://www.visa.com/">Visa</a>
-              <a class="h5" href="https://www....com/">Efectivo</a>
-              <a class="h5" href="https://www.bitcoin.com/">Btc</a>
-            </div>
-            </div>
-          </div>
-      </footer>
+  <!-- CART -->
+<div id="cart" class="align-items-end flex-column d-none" >
+<!-- cartHeader -->
+  <div class="container-fluid cartHeader" >
+    <div>
+      <button ><i class="fas fa-sort-up text-success" id="btn-up"></i> </button>
+      <!-- <button ><i class="fas fa-sort-down text-success"id="btn-down"></i></button> -->
+    </div>
+    <h2>Productos</h2> 
+    <button ><i class="fas fa-times text-white"id="btn-close"></i></button>  
+  </div>
+<!-- cartBody -->
+  <div class="container cartBody">  
+    <table class="table text-white">
+      <thead>
+        <tr>
+          <th scope="col"><b>Item</b></th>
+          <th scope="col"><b>Cantidad</b></th>
+          <th scope="col"><b>Accion</b></th>
+          <th scope="col"><b>Precio</b> </th>
+        </tr>
+      </thead>
+      <tbody id="cartProduct">
+      </tbody>
+    </table>
+  </div>
+<!-- cartFooter -->
+  <div class="container cartFooter mt-auto">
+        <p>Total: <b id="total"></b></p>
+        <button class="btn btn-light">Comprar</button>
+  </div>
+</div>
+
+<button id="btn-cart"><i class="flaticon-carrito-de-compras text-white"></i></button>  
+
+
+</main> 
+   <!-- FOOTER -->
+<footer class="container-fluid" > <a id="Footer"></a>       
+    <div class="row">
+      <div class="col-12 col-md-3 m-auto">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.652290755712!2d-56.69165728420546!3d-36.538382180003374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c13075c2f355d%3A0xcc9aa47ec3dd26c2!2sLa%20Bruschetta!5e0!3m2!1ses-419!2sar!4v1626633771810!5m2!1ses-419!2sar" width="350" height="200" style="border:0.5;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="col-12 d-flex flex-wrap">  
+        <div class="container d-flex flex-row justify-content-around ">
+          <h6 class="font-weight-bold" >Nuestras redes</h6>
+        <a class="h5" href="https://www.youtube.com/">YouTube</a>
+        <a class="h5" href="https://www.facebook.com/">Facebook</a>
+        <a class="h5" href="https://www.instagram.com/">Instagram</a>
+        <a class="h5" href="https://www.twitter.com/">Twitter</a>
+      </div>
+      
+      <div class="container d-flex flex-row justify-content-around">
+        <h6 class="font-weight-bold" >Formas de pago</h6>
+        <a class="h5" href="https://www.mastercard.com/">Mastercard</a>
+        <a class="h5" href="https://www.visa.com/">Visa</a>
+        <a class="h5" href="https://www....com/">Efectivo</a>
+        <a class="h5" href="https://www.bitcoin.com/">Btc</a>
+      </div>
+      </div>
+    </div>
+</footer>
+      <!-- font awesome -->
+      <script src="https://kit.fontawesome.com/6741acadef.js" crossorigin="anonymous"></script>
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- JS -->
     <script src="../Js/main.js"></script>
+    <script src="../Js/cart.js"></script>
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>  AOS.init();</script>
     <!-- bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+ 
     <!-- bootstrap -->
   </body>
 </html>

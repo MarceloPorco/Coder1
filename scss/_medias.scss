@@ -4,12 +4,24 @@
 
 body{
     font-size: 0.85rem;
-}    
+    }    
+.nav-responsive{
+    flex-direction: column;    
+}
 }
 
 /*--responsive smartphone--*/
-@media screen and (max-width: 820px) {
-    body{
-        font-size: 0.7rem;
+@media screen and (max-width: 991px) {
+    
+    .mx-background-top-linear{
+        background: black;
+    }   
+    .nav-link {
+          color: rgb(234, 190, 63);
+    
+          &:hover,
+          &:focus {
+            color: rgb(226, 191, 85);
+          }
+        }
     }
-}
