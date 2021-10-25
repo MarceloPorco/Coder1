@@ -168,22 +168,22 @@ h5 {
 
 /*  HEADER  */
 /*  JUMBOTRON  */
-section:first-child {
+#index section:first-child {
   background: url(../Images/jumbo.jpg);
   background-size: cover;
   height: 35rem;
   background-position: 50%; }
-  section:first-child div {
+  #index section:first-child div {
     padding: 2rem; }
 
 /*  JUMBOTRON  */
 /*    MENU      */
-section:nth-child(2) .menu :hover {
+#index section:nth-child(2) .menu :hover {
   transform: scale(1.08); }
 
 /*    MENU      */
 /*   DESTACADOS   */
-section:nth-child(3) .card-mod {
+#index section:nth-child(3) .card-mod {
   max-width: 40em;
   margin: auto;
   background: linear-gradient(to bottom, #ffffff, #c2c2c2); }

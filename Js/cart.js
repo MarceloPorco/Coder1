@@ -17,7 +17,7 @@
     let btnUp = document.getElementById(`btn-up`)
     let cartTotal = document.getElementById(`total`)
     let carrito = {}
-
+  
     // EventDelegation para tomar los btn de  compra del dom
 menu.addEventListener(`click`, e =>{
   añadirCarrito(e)

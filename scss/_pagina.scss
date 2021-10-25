@@ -42,7 +42,7 @@ h5{
 
 
       /*  JUMBOTRON  */
-section:first-child {
+#index section:first-child {
       background: url(../Images/jumbo.jpg);
       background-size: cover;
       height: 35rem;
@@ -56,7 +56,7 @@ section:first-child {
     
 
    /*    MENU      */
-    section:nth-child(2) {
+#index section:nth-child(2) {
     .menu :hover{
     transform: scale(1.08);
   }}
@@ -66,7 +66,7 @@ section:first-child {
    
    
     /*   DESTACADOS   */
-  section:nth-child(3){
+  #index section:nth-child(3){
     .card-mod{
       max-width: 40em;
       margin: auto;
@@ -74,10 +74,6 @@ section:first-child {
   }}
     /*   DESTACADOS   */
   
-
-
-
-    
 
 
    /*    NOSOTROS      */
